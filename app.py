@@ -16,7 +16,7 @@ st.header("This prediction was made using Fine Needle Aspirate Images of sample 
 st.text("Made by Karl Tortebecker (karlintchoumi@gmail.com)")
 
 # Loading the pre-trained machine learning model
-model = load_model('keras_model.h5')
+model = load_model('dbc_model.h5')
 
 # Defining a function to classify the image using the pre-trained model
 def teachable_machine_classification(img, model, size=(224,224)):
